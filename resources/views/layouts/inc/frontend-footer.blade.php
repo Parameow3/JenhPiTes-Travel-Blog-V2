@@ -47,7 +47,7 @@
                 <a href="https://github.com/Tobi17890" target="_blank"
                    class="hover:text-default flex flex-1 justify-start">
                     <i class="fab fa-github" style="width: 25px; height: 25px; color: #FFFFFF; margin-top: 2px;"></i>
-                    <p class="text-white one pl-[5px]">ថាន លឹមផេងអៀង</p>
+                    <p class="text-white one pl-[5px]">ថាន លឹមភេងអ៊ាង</p>
                 </a>
                 <a href="https://github.com/BenHUn" target="_blank"
                    class="hover:text-default flex flex-1 justify-start">
