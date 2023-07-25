@@ -10,11 +10,11 @@
     <title>@yield('title')</title>
 
     <!-- Styles -->
-    <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/styles.css') }}" rel="stylesheet">
 
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet"/>
-    <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/main.css') }}" rel="stylesheet">
 
     {{--    <!-- Styles -->--}}
     {{--    --}}{{-- If you want to show custom font please un comment it --}}
@@ -34,11 +34,11 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script src="{{ asset('assets/js/scripts.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ secure_asset('assets/js/scripts.js') }}" crossorigin="anonymous"></script>
 
     <!-- Bootstrap core JS-->
-    <script src="{{ asset('assets/js/jquery-3.6.4.min.js') }}" crossorigin="anonymous"></script>
-    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ secure_asset('assets/js/jquery-3.6.4.min.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ secure_asset('assets/js/bootstrap.bundle.min.js') }}" crossorigin="anonymous"></script>
 
     <!-- Core theme JS-->
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
