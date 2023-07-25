@@ -111,8 +111,8 @@
                         <div class="flex items-center justify-between">
                             <div class="flex">
                                 <div class="flex">
-                                    <h3 class="text-xl font-semibold" style="margin-left: 10px;">ចំណត</h3>
-                                    <h3 class="pl-[5px] text-xl font-bold text-primary">ភ្នំពេញ</h3>
+                                    <h3 class="text-xl font-semibold" style="margin-left: 10px;">ចេញទៅរក</h3>
+                                    <h3 class="pl-[5px] text-xl font-bold text-primary">រាជភ្នំពេញ</h3>
                                 </div>
                                 <div></div>
                             </div>
@@ -212,7 +212,7 @@
                         <div class="flex items-center justify-between">
                             <div class="flex">
                                 <div class="flex">
-                                    <h3 class="text-xl font-semibold" style="margin-left: 10px;">ចំណត</h3>
+                                    <h3 class="text-xl font-semibold" style="margin-left: 10px;">ចេញទៅរក</h3>
                                     <h3 class="pl-[5px] text-xl font-bold text-primary">កំពត</h3>
                                 </div>
                                 <div></div>
@@ -313,7 +313,7 @@
                         <div class="flex items-center justify-between">
                             <div class="flex">
                                 <div class="flex">
-                                    <h3 class="text-xl font-semibold" style="margin-left: 10px;">ចំណត</h3>
+                                    <h3 class="text-xl font-semibold" style="margin-left: 10px;">ចេញទៅរក</h3>
                                     <h3 class="pl-[5px] text-xl font-bold text-primary">សៀមរាប</h3>
                                 </div>
                                 <div></div>
