@@ -14,12 +14,12 @@
     <meta name="author" content="JenhPiTes">
 
     <!-- Styles -->
-    <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet">
-    <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/styles.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/custom.css') }}" rel="stylesheet">
 
     <!-- MDB -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet"/>
-    <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('assets/css/main.css') }}" rel="stylesheet">
 
     <!-- summernote -->
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
@@ -34,19 +34,19 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
-    <script src="{{ asset('assets/js/scripts.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ secure_asset('assets/js/scripts.js') }}" crossorigin="anonymous"></script>
 
     <!-- JQuery -->
-    <script src="{{ asset('assets/js/jquery-3.6.4.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/jquery-3.6.4.min.js') }}"></script>
 
     <!-- Bootstrap core JS -->
-    <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ secure_asset('assets/js/bootstrap.bundle.min.js') }}"></script>
 
     <!-- summernote js -->
     <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
 
     <!-- Owl Carousel -->
-    <script src=" {{ asset('assets/js/owl.carousel.min.js') }}"></script>
+    <script src=" {{ secure_asset('assets/js/owl.carousel.min.js') }}"></script>
 
     <!-- Font Awesome js -->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"></script>
@@ -60,8 +60,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
 
     <!-- Owl Carousel js -->
-    <link href= " {{ asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet">
-    <link href=" {{ asset('assets/css/owl.theme.default.min.css') }}" rel="stylesheet">
+    <link href= " {{ secure_asset('assets/css/owl.carousel.min.css') }}" rel="stylesheet">
+    <link href=" {{ secure_asset('assets/css/owl.theme.default.min.css') }}" rel="stylesheet">
 
     <script>
 

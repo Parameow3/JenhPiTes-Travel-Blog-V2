@@ -77,7 +77,7 @@
                             <td class="font-semibold">{{ $item->id }}</td>
                             <td class="font-semibold">{{ $item->name }}</td>
                             <td>
-                                <img class="rounded-2 border-2" src="{{ asset('uploads/category') }}/{{ $item->image }}" alt="" width="50" height="50">
+                                <img class="rounded-2 border-2" src="{{ secure_asset('uploads/category') }}/{{ $item->image }}" alt="" width="50" height="50">
                             </td>
                             <td>
                                 @if($item->status == 1)

@@ -11,7 +11,7 @@
             <div class="absolute top-0 z-10 h-[400px] w-full items-center justify-center text-center">
             <span
                 style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0 none; margin: 0; padding: 0; position: absolute; inset: 0;">
-                <img src="{{ asset('uploads/post/'.$post->image) }}"
+                <img src="{{ secure_asset('uploads/post/'.$post->image) }}"
                      alt="" class="z-10 h-[400px] w-full rounded-bl-[60px] object-cover"
                      style="position: absolute; inset: 0; box-sizing: border-box; padding: 0; border: medium none; margin: auto; display: block; width: 0; height: 0; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">0
             </span>

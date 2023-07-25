@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+<link rel="stylesheet" href="{{ secure_asset('assets/css/main.css') }}">
 <footer class="w-full bg-primary py-[50px]">
     <div class="container mx-auto flex justify-between">
         <div class="flex w-[250px] flex-col">

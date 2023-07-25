@@ -70,7 +70,7 @@
                                     style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; border: 0 none; margin: 0; padding: 0; position: absolute; inset: 0;">
                                     <img
                                         alt=""
-                                        src="{{ asset('uploads/category/'.$category->image) }}"
+                                        src="{{ secure_asset('uploads/category/'.$category->image) }}"
                                         class="h-full w-full rounded-[16px] object-cover transition-all duration-700 ease-in-out group-hover:scale-125"
                                         style="position: absolute; inset: 0; box-sizing: border-box; padding: 0; border: medium none; margin: auto; display: block; width: 0; height: 0; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
                                         sizes="100vw">
@@ -146,7 +146,7 @@
                                             <span
                                                 style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0 none; margin: 0; padding: 0; position: absolute; inset: 0;">
                                                 <img
-                                                    src="{{ asset('uploads/post/'.$post->image) }}"
+                                                    src="{{ secure_asset('uploads/post/'.$post->image) }}"
                                                     class="image z-10 h-[250px] w-full rounded-[16px] object-cover"
                                                     style="position: absolute; inset: 0; box-sizing: border-box; padding: 0; border: medium none; margin: auto; display: block; width: 0; height: 0; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;" alt="">
                                             </span>
@@ -247,7 +247,7 @@
                                             <span
                                                 style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0 none; margin: 0; padding: 0; position: absolute; inset: 0;">
                                                 <img
-                                                    src="{{ asset('uploads/post/'.$post->image) }}"
+                                                    src="{{ secure_asset('uploads/post/'.$post->image) }}"
                                                     class="image z-10 h-[250px] w-full rounded-[16px] object-cover"
                                                     style="position: absolute; inset: 0; box-sizing: border-box; padding: 0; border: medium none; margin: auto; display: block; width: 0; height: 0; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;" alt="">
                                             </span>
@@ -348,7 +348,7 @@
                                             <span
                                                 style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0 none; margin: 0; padding: 0; position: absolute; inset: 0;">
                                                 <img
-                                                    src="{{ asset('uploads/post/'.$post->image) }}"
+                                                    src="{{ secure_asset('uploads/post/'.$post->image) }}"
                                                     class="image z-10 h-[250px] w-full rounded-[16px] object-cover"
                                                     style="position: absolute; inset: 0; box-sizing: border-box; padding: 0; border: medium none; margin: auto; display: block; width: 0; height: 0; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;" alt="">
                                             </span>

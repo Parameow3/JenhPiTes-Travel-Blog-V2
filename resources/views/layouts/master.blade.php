@@ -18,8 +18,8 @@
 
     {{--    <!-- Styles -->--}}
     {{--    --}}{{-- If you want to show custom font please un comment it --}}
-    {{--    <link href="{{ asset('assets/css/styles.css') }}" rel="stylesheet">--}}
-    {{--    <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">--}}
+    {{--    <link href="{{ secure_asset('assets/css/styles.css') }}" rel="stylesheet">--}}
+    {{--    <link href="{{ secure_asset('assets/css/main.css') }}" rel="stylesheet">--}}
 
     <!-- summernote -->
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">

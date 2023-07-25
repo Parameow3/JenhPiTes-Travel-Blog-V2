@@ -62,7 +62,7 @@
                             <td class="font-semibold">{{ $item->category->name }}</td>
                             <td class="font-semibold">{{ $item->name }}</td>
                             <td>
-                                <img class="rounded-2 border-2" src="{{ asset('uploads/post') }}/{{ $item->image }}"
+                                <img class="rounded-2 border-2" src="{{ secure_asset('uploads/post') }}/{{ $item->image }}"
                                      alt="" width="50"
                                      height="50">
                             </td>
