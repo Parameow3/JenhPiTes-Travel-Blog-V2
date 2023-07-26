@@ -37,28 +37,28 @@
         {{-- =================  categories items ===================== --}}
         <div
             class="relative grid h-auto w-full select-none flex-wrap gap-2 px-[10px] py-[20px] sm:grid-cols-2 sm:px-[0px] md:grid md:grid-cols-3 xl:grid xl:grid-cols-5">
-            <div class="group flex flex-col items-center justify-center">
-                <div
-                    class="jomnot-fix-safari-radius relative h-[150px] w-full flex-shrink-0 cursor-pointer overflow-hidden rounded-[16px] shadow-base duration-700">
-                    <a href="">
-                        <div class="absolute h-full w-full rounded-[16px]">
-                            <span
-                                style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0 none; margin: 0; padding: 0; position: absolute; inset: 0;">
-                                <img
-                                    alt=""
-                                    src="https://jomnot.com/_next/image?url=https%3A%2F%2Fimagedelivery.net%2FjGl7otiKn8qlUhSSX-Fxow%2F2ea6bb4f-b2f3-47ad-4d6f-6beeea58a500%2Fpublic&w=3840&q=80"
-                                    class="h-full w-full rounded-[16px] object-cover transition-all duration-700 ease-in-out group-hover:scale-125"
-                                    style="position: absolute; inset: 0; box-sizing: border-box; padding: 0; border: medium none; margin: auto; display: block; width: 0; height: 0; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-                                    sizes="100vw">
-                            </span>
-                        </div>
-                        <div
-                            class="absolute flex h-full w-full items-center justify-center bg-opacity-30 text-white">
-                            <span class="text-2xl font-semibold">មានបញ្ហាដោះស្រាយមិនចេញ</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
+{{--            <div class="group flex flex-col items-center justify-center">--}}
+{{--                <div--}}
+{{--                    class="jomnot-fix-safari-radius relative h-[150px] w-full flex-shrink-0 cursor-pointer overflow-hidden rounded-[16px] shadow-base duration-700">--}}
+{{--                    <a href="">--}}
+{{--                        <div class="absolute h-full w-full rounded-[16px]">--}}
+{{--                            <span--}}
+{{--                                style="box-sizing: border-box; display: block; overflow: hidden; width: initial; height: initial; background: none; opacity: 1; border: 0 none; margin: 0; padding: 0; position: absolute; inset: 0;">--}}
+{{--                                <img--}}
+{{--                                    alt=""--}}
+{{--                                    src="https://jomnot.com/_next/image?url=https%3A%2F%2Fimagedelivery.net%2FjGl7otiKn8qlUhSSX-Fxow%2F2ea6bb4f-b2f3-47ad-4d6f-6beeea58a500%2Fpublic&w=3840&q=80"--}}
+{{--                                    class="h-full w-full rounded-[16px] object-cover transition-all duration-700 ease-in-out group-hover:scale-125"--}}
+{{--                                    style="position: absolute; inset: 0; box-sizing: border-box; padding: 0; border: medium none; margin: auto; display: block; width: 0; height: 0; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"--}}
+{{--                                    sizes="100vw">--}}
+{{--                            </span>--}}
+{{--                        </div>--}}
+{{--                        <div--}}
+{{--                            class="absolute flex h-full w-full items-center justify-center bg-opacity-30 text-white">--}}
+{{--                            <span class="text-2xl font-semibold">មានបញ្ហាដោះស្រាយមិនចេញ</span>--}}
+{{--                        </div>--}}
+{{--                    </a>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
             @foreach(\App\Models\Category::query()->where('navbar_status', 1)->where('status', 1)->get() as $category)
                 <div class="flex flex-col items-center justify-center">
