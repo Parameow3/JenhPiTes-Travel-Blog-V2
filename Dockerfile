@@ -1,6 +1,5 @@
 FROM debian:latest
 RUN apt update
-RUN apt install npm -y
 RUN dpkg -l | grep php | tee packages.txt
 RUN apt install -y apt-transport-https
 RUN apt install -y lsb-release
@@ -28,13 +27,9 @@ RUN chmod -R 775 /var/www/app
 RUN cd /var/www/app
 RUN composer install
 RUN composer update
-RUN npm install
-RUN npm update
-RUN npm run build
 
 RUN cp /var/www/app/localhost.conf /etc/nginx/sites-available
 RUN ln -s /etc/nginx/sites-available/localhost.conf /etc/nginx/sites-enabled
-RUN rm /etc/nginx/sites/enabled/default
 
 RUN service nginx restart
 EXPOSE 80
